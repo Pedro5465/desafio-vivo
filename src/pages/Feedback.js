@@ -10,7 +10,7 @@ export default function Feedback() {
       <div className="panel-card-feedback">
         <FeedbackComponente
           name="Autor: Pedro"
-          title="Essa gincana foi muito boa para o meu desenvolvimento como dientista de dados. Gostei demais do desafios, descobri muita coisa nova e vivenciei novas experiências."
+          title="Essa gincana foi muito boa para o meu desenvolvimento como cientista de dados. Gostei demais do desafios, descobri muita coisa nova e vivenciei novas experiências."
           resul="Paz"
           img="https://images.emojiterra.com/google/android-nougat/512px/1f44f.png"
         />
