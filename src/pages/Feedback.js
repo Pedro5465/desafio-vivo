@@ -28,7 +28,7 @@ export default function Feedback() {
         />
         <FeedbackComponente
           name="Autor: Hiuri"
-          title="Foi uma experiência muito legal que nunca tinha participado. Não dei o máximo eu podia me dedicar um pouco mais. Tiver ano que vem novamente com certeza vou participar. Obrigado e espero que gostem do nosso trabalho"
+          title="Foi uma experiência muito legal da qual nunca havia participado, não dei o máximo de mim, podia ter me dedicado um pouco mais. Se ano que vem houver outro desafio com certeza vou participar. Obrigado e espero que gostem do nosso trabalho."
           resul="Feliz"
           img="https://images.emojiterra.com/google/android-oreo/512px/1f929.png"
         />
