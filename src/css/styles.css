@@ -1,0 +1,361 @@
+* {
+  padding: 0;
+  margin: 0;
+  list-style: none;
+}
+
+body {
+}
+
+header {
+  background: linear-gradient(
+    90deg,
+    rgba(2, 0, 36, 1) 0%,
+    rgba(9, 43, 121, 0.10407913165266103) 27%,
+    rgba(0, 212, 255, 1) 100%
+  );
+  box-shadow: 1px 1px 1px 1px #ffffff;
+
+  width: 100%;
+  color: #ffffff;
+  height: 80px;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+
+header nav ul {
+  display: flex;
+}
+
+.li {
+  text-decoration: none;
+  transition: 0.5s;
+  margin-right: 10%;
+  border-bottom: 1px solid #ffffff;
+  padding: 10px;
+  color: #ffffff;
+  font-family: Arial, Helvetica, sans-serif;
+  font-weight: bold;
+}
+
+.li:hover {
+  color: #000000;
+  background-color: cornflowerblue;
+}
+
+.conatainer-global {
+  justify-content: center;
+  text-align: center;
+  color: #ffffff;
+}
+
+.container-home {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+iframe {
+  width: 100%;
+  height: 200px;
+  max-width: 500px;
+  margin: 5%;
+}
+
+.container-image-loading {
+  display: flex;
+  justify-content: center;
+  align-item: center;
+  margin-top: 5%;
+  margin-bottom: 5%;
+}
+
+.imageLoading {
+  animation: rotate 5s infinite linear;
+}
+
+.container-describe-project {
+  display: flex;
+  flex-direction: center;
+  align-item: center;
+  justify-content: center;
+  color: #ffffff;
+  margin-bottom: 10px;
+  margin-top: 10px;
+}
+
+.container-describe-project span {
+  font-family: Arial;
+  font-weight: bold;
+  max-width: 500px;
+}
+
+.container-card {
+  box-shadow: 0px 0px 10px 0px #000;
+  display: flex;
+  justify-content: center;
+  align-item: center;
+  background-color: #ffffff;
+  width: 100%;
+  max-width: 600px;
+  margin: 5%;
+  height: 100px;
+  border-top: 2px solid red;
+}
+
+.cardView {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+.container-card-home {
+  transition: 2s;
+  position: relative;
+  left: 1000px;
+}
+
+.container-card h1 {
+  font-size: 15px;
+  margin: 10px;
+  font-family: Arial, Helvetica, sans-serif;
+  border-bottom: 1px solid #51616c;
+  color: #51616c;
+  position: absolute;
+}
+
+.container-card span {
+  font-size: 12px;
+  text-align: center;
+  font-family: Arial;
+  margin: 10px;
+  max-width: 300px;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  color: #000;
+}
+
+.display-flex {
+  display: flex;
+  justify-content: center;
+  align-item: center;
+}
+
+@import url("https://fonts.googleapis.com/css?family=Montserrat&display=swap");
+
+* {
+  box-sizing: border-box;
+}
+
+body {
+  background: #4e54c8;
+  background: -webkit-linear-gradient(to right, #8f94fb, #4e54c8);
+  background: linear-gradient(to right, #8f94fb, #4e54c8);
+  font-family: "Montserrat", sans-serif;
+  height: 100vh;
+}
+
+.panel-container {
+  background-color: #12192c;
+  box-shadow: 0 0 10px rgba(0, 0, 0, 0.3);
+  border-radius: 15px;
+  font-size: 90%;
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+  text-align: center;
+  padding: 30px;
+  max-width: 400px;
+  color: #fff;
+  margin: 10% auto 2% auto;
+}
+
+.panel-container strong {
+  line-height: 20px;
+}
+
+.ratings-container {
+  display: flex;
+  margin: 10px 0;
+}
+.rating {
+  flex: 1;
+  cursor: pointer;
+  padding: 20px;
+}
+.rating:hover,
+.rating.active {
+  border-radius: 4px;
+  box-shadow: 0 0 10px rgba(0, 0, 0, 0.1);
+}
+
+.rating img {
+  width: 40px;
+}
+
+.rating small {
+  color: #fff;
+  display: inline-block;
+  margin: 10px 0 0;
+}
+
+.rating:hover small,
+.rating.active small {
+  color: #8f94fb;
+}
+
+.btn {
+  background-color: #8f94fb;
+  color: #000;
+  border: 0;
+  border-radius: 4px;
+  padding: 12px 30px;
+  cursor: pointer;
+}
+
+.btn:focus {
+  outline: 0;
+}
+
+.btn:active {
+  transform: scale(0.98);
+}
+
+.fa-heart {
+  color: red;
+  font-size: 30px;
+  margin-bottom: 10px;
+}
+
+.credit a {
+  text-decoration: none;
+  color: #fff;
+}
+
+.panel-card-feedback {
+  display: flex;
+  flex-wrap: wrap;
+}
+
+.container-sobre-page {
+  display: flex;
+  align-items: center;
+  justify-content: center;
+}
+
+.container-sobre-card {
+  display: flex;
+  width: 800px;
+  height: 500px;
+}
+
+.container-sobre-card ul {
+  display: flex;
+  align-item: center;
+  flex-direction: column;
+  width: 100%;
+}
+
+.container-sobre-card ul li {
+  width: 100%;
+  margin: 5%;
+  background-color: #fff;
+}
+
+.animation-card {
+  transition: 5s;
+  position: relative;
+  animation: position 1s;
+}
+
+.container-card h1 {
+  padding: 10px;
+  background-color: #fff;
+}
+
+.conatiner-cards-flex {
+  display: flex;
+  flex-wrap: wrap;
+  justify-content: center;
+}
+
+.img-header {
+  width: 100%;
+  background-repeat: no-repeat;
+  height: 500px;
+  max-height: 300px;
+  background: url("https://www.hostinger.com.br/tutoriais/wp-content/uploads/sites/12/2018/11/Como-Criar-um-Site.png");
+}
+
+footer {
+  background-color: red;
+  width: 100%;
+  background-color: #333333;
+  height: 100px;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  text-align: center;
+}
+
+.footer-text {
+  text-align: center;
+  font-size: 15px;
+  font-family: Arial;
+  font-weight: 100;
+}
+
+.container-erro {
+  color: #fff;
+  margin-top: 200px;
+  display: flex;
+  flex-direction: column;
+  align-item: center;
+  justify-content: center;
+}
+
+.link-to-error {
+  font-family: Arial, Helvetica, sans-serif;
+  font-weight: bold;
+  transition: 0.5s;
+  text-decoration: none;
+  margin-top: 5%;
+  padding: 10px;
+  color: #fff;
+  border-bottom: 1px solid blue;
+}
+
+.link-to-error:hover {
+  color: blue;
+}
+
+.container-top-card h1 {
+  display: flex;
+}
+
+a {
+  margin-left: 20px;
+}
+
+.container-top-card h1 img {
+  margin-left: 10px;
+}
+
+@keyframes position {
+  0% {
+    left: 1000px;
+  }
+  100% {
+    left: 0;
+  }
+}
+
+@keyframes rotate {
+  0% {
+    transform: rotate(0deg);
+  }
+  100% {
+    transform: rotate(360deg);
+  }
+}
